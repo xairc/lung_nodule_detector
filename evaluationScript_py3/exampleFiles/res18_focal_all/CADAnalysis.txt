@@ -1,0 +1,16 @@
+
+************************************************************
+CAD Analysis: luna_submission_res18_focal_all
+************************************************************
+
+Candidate detection results:
+    True positives: 104
+    False positives: 986
+    False negatives: 1
+    True negatives: 0
+    Total number of candidates: 1499
+    Total number of nodules: 105
+    Ignored candidates on excluded nodules: 358
+    Ignored candidates which were double detections on a nodule: 51
+    Sensitivity: 0.990476190
+    Average number of candidates per scan: 17.034090909
