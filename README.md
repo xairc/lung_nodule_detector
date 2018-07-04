@@ -22,6 +22,10 @@ pytorch 0.2.0
  - https://wiki.cancerimagingarchive.net/display/Public/LIDC-IDRI
    - download Radiologist Annotations/Segmentations (XML)
    
+# pretrained weight
+ - https://drive.google.com/drive/u/1/folders/15d8BsRLNkroAl0iypHaIrlRorhBImzYk
+ - download detector.ckpt
+ 
 # Training
  - set luna and lidc path: set config_training.py
  - export path: source export_path.sh
