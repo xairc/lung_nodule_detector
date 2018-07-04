@@ -4,6 +4,26 @@ lung nodule detector using 3d resnet
 # Prerequisites
 python 3.5.2      
 pytorch 0.2.0
+pyqt 5
+
+# Docker Image
+docker pull likebullet86/luna16_detector
+
+# Using Viewer
+![ex_screenshot](./xai_viewer.png) 
+- settings (detector_viewer/xai_viewer.py)
+  - self.init_openpath
+  - self.label_dirpath
+  - self.detect_resume
+  - self.gpu
+- excute
+  - python xai_viewer.py
+- for using viewer in docker
+  - xhost + (excute in host side)
+  - excute docker with following options:
+    -v "$HOME/.Xauthority:/root/.Xauthority:rw"
+    -v /tmp/.X11-unix:/tmp/.X11-unix
+    -e DISPLAY=$DISPLAY
 
 # FROC curve
 ![ex_screenshot](./FROC_RESULT/froc_luna_submission_res18_focal_all.png)  
